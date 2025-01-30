@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.site-logo {
+    height: 50px;
+}
+
+.home-section {
+    height: 850px;
+    background-image: url('./hero-bg.jpg');
+    position: relative;
+    z-index: 1;
+}
+
+.home-section h1 {
+    margin-top: 300px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #F28123;
+}
+
+.home-section p {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(145, 145, 3);
+}
+
+.shop-section {
+    padding: 50px 0;
+}
+
+.shop-section h2{
+    text-align: center;
+    color: #F28123;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.shop-section p {
+    text-align: center;
+}
+.main-para{
+    font-size: 1.5rem;
+    color: rgb(145, 145, 3);
+}
+.shop-section .row {
+    justify-content: center;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    height: 300px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+.card-text a{
+    display: block;
+    margin: 0 auto;
+}
+#contact {
+    height: 300px;
+}
+
+.contact-section {
+    background-image: url(./contact-section-img.jpg);
+}
+.contact-section h2{
+    font-size: 2rem;
+    color: rgb(145, 145, 3);
+}
+.contact-section h3{
+    font-size: 1.2rem;
+    color: rgb(145, 145, 3);
+}
+footer {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p:nth-child(2) {
+    font-weight: bold;
+}
