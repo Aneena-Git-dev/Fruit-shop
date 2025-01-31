@@ -6,7 +6,9 @@ body {
 .site-logo {
     height: 50px;
 }
-
+.nav-link{
+    color: rgb(145, 145, 3);
+}
 .home-section {
     height: 850px;
     background-image: url('./hero-bg.jpg');
@@ -101,8 +103,18 @@ footer {
 
 footer p {
     margin: 0;
+
 }
 
-footer p:nth-child(2) {
-    font-weight: bold;
+.icon-set{
+    padding: 20px 0;
+}
+.icon i{
+    padding: 0 5px;
+    color: white;
+    
+}
+.icon :hover{
+ 
+    color: #F28123;
 }
